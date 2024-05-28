@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+             height: 100vh;
+            padding: 5px;
+            display: grid;
+            grid-template-columns: 10% 10% 10% 10% 10% 3% ;
+            grid-template-rows: 10% 10% 10% ;
+            gap: 10px;
+            justify-content: center;
+            
+        }
+        .class{
+            background-color: royalblue;
+           font-size: 20px;
+           text-align: center;
+           align-items: center
+        }
+        .c2{
+            grid-column: 2/4;
+            background-image: conic-gradient(red,yellow,blue,green,pink);
+        }
+        .c4{
+            grid-column: 4;
+            grid-row: 1/4;
+            background-image: linear-gradient(orange,red,yellow,brown);
+        }
+        .c3{
+            grid-column: 5;
+            grid-row: 1/4;
+            background-image: conic-gradient(brown,yellow,red,aqua);
+        }
+        .c5{
+            grid-column: 6;
+            grid-row: 1/4;
+            background-color: blueviolet;
+        }
+        .c6{
+            grid-row: 2/4;
+            background-color: blue;
+        }
+        .c7{
+            grid-column: 2/4;
+            grid-row: 2/4;
+            background-image: radial-gradient(red,blue,yellow,grey);
+        }
+       
+      
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="class c1">1</div>
+        <div class="class c2">2</div>
+        <div class="class c3">3</div>
+        <div class="class c4">4</div>
+        <div class="class c5">5</div>
+        <div class="class c6">6</div>
+        <div class="class c7">7</div>
+        <!-- <div class="class">8</div>
+        <div class="class">9</div> 
+        <div class="class">10</div> -->
+        <!-- <div class="class">11</div> -->
+         <!-- <div class="class">12</div>
+         <div class="class c7">13</div> -->
+        <!-- <div class="class">14</div>
+        <div class="class">15</div>  -->
+        <!-- <div class="class">16</div>
+        <div class="class">17</div> -->
+         <!-- <div class="class">18</div> -->
+    </div>
+</body>
+</html>
